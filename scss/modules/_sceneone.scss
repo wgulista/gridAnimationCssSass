@@ -1,0 +1,33 @@
+/* Chrome, Safari, Opera */
+@-webkit-keyframes scale{
+	0%   {transform:scale(0)}
+	100% {transform:scale(1)}
+}
+
+@keyframes scale{
+	0%   {transform:scale(0)}
+	100% {transform:scale(1)}
+}
+
+@-webkit-keyframes oneScene {
+    0%   {background:#000; left:150px; top:0px; backgroud: #000}
+    100% {background:#000; left:0px; top:0px; backgroud: #000;}
+}
+
+/* Standard syntax */
+@keyframes oneScene {
+    0%   {background:#000; left:150px; top:0px; backgroud: #000}
+    100% {background:#000; left:0px; top:0px; backgroud: #000;}
+}
+
+/* Chrome, Safari, Opera 
+@-webkit-keyframes oneRotate {
+	from { transform: rotate(0deg); left:0px; top:0px;}
+	to   { transform: rotate(0deg); left:175px; top:-175px;}
+}
+
+/* Standard syntax 
+@keyframes oneRotate {
+	from { transform: rotate(0deg); left:0px; top:0px;}
+	to   { transform: rotate(0deg); left:175px; top:-175px;}
+}*/

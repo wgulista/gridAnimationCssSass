@@ -1,0 +1,10 @@
+@-webkit-keyframes threeScene {
+    0%   {background:#000; left:0px; top:150px; backgroud: #000}
+    100% {background:#000; left:0px; top:0px; backgroud: #000;}
+}
+
+/* Standard syntax */
+@keyframes threeScene {
+    0%   {background:#000; left:0px; top:150px; backgroud: #000}
+    100% {background:#000; left:0px; top:0px; backgroud: #000;}
+}

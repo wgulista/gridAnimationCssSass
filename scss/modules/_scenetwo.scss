@@ -1,0 +1,23 @@
+/* Chrome, Safari, Opera */
+@-webkit-keyframes twoScene {
+    0%   {background:#000; left:-150px; top:0px; backgroud: #000}
+    100% {background:#000; left:0px; top:0px; backgroud: #000;}
+}
+
+/* Standard syntax */
+@keyframes twoScene {
+    0%   {background:#000; left:-150px; top:0px; backgroud: #000}
+    100% {background:#000; left:0px; top:0px; backgroud: #000;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes twoRotate {
+	from { transform: rotate(0deg); left:0px; top:0px;}
+	to   { transform: rotate(0deg); left:-175px; top:175px;}
+}
+
+/* Standard syntax */
+@keyframes twoRotate {
+	from { transform: rotate(0deg); left:0px; top:0px;}
+	to   { transform: rotate(0deg); left:-175px; top:175px;}
+}

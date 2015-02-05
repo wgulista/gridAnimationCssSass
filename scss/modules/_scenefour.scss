@@ -1,0 +1,10 @@
+@-webkit-keyframes fourScene {
+    0%   {background:#000; left:0px; top:-175px;}
+    100% {background:#000; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes fourScene {
+    0%   {background:#000; left:0px; top:-175px;}
+    100% {background:#000; left:0px; top:0px;}
+}

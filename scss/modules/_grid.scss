@@ -1,0 +1,198 @@
+.grid {
+	width:500px;
+	height: 500px;
+	margin: 0 auto
+}
+
+.sub-grid {
+	width: 150px;
+	height: 150px;
+	display: block;
+	float: left;
+	margin: 0 25px 25px 0;
+	background: #fff;
+	position: relative
+}
+
+.sub-grid:nth-child(3n) {
+	margin : 0 0 25px 0
+}
+
+.sub-grid:nth-child(5) {
+	background: #000;
+	z-index: 10;
+	-webkit-animation-name: scale; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 0;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+
+	animation-name: scale;
+	animation-duration: 2s;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 0;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+
+.sub-grid:nth-child(4){
+	animation-name: oneScene;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 2s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-name: oneScene;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+}
+.sub-grid:nth-child(6) {
+	animation-name: twoScene;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 2s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-name: twoScene;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+    z-index : 5
+}
+
+.sub-grid:nth-child(1) {
+	animation-name: threeScene;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 3s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-name: threeScene;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+}
+.sub-grid:nth-child(7) {
+	animation-name: fourScene;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 3s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-name: fourScene;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+.sub-grid:nth-child(3){
+	animation-name: fiveScene;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 3s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-name: fiveScene;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+}
+.sub-grid:nth-child(9){
+	animation-name: sixScene;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 3s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-name: sixScene;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+.sub-grid:nth-child(2){
+	animation-name: sevenScene;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 3s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-name: sevenScene;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+}
+.sub-grid:nth-child(8){
+	animation-name: eightScene;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 3s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-name: eightScene;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+}
